@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+    .redirect-container {
+      text-align: center;
+      padding: 2rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    a {
+      color: #ff4c60;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <script>
+    setTimeout(function() {
+      window.location.replace('home.html');
+    }, 100);
+  </script>
+</head>
+<body>
+  <div class="redirect-container">
+    <p>Redirecting to <a href="home.html">Home</a>...</p>
+  </div>
+</body>
+</html> 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Shivang Rawat</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Shivang Rawat</div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="projects" class="visible">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card" ondblclick="window.open('https://github.com/Honeyrawatt/student-feedback-review-system', '_blank')">
+          <h3>Student Feedback Review System (Sep–Dec 2024)</h3>
+          <ul>
+            <li>Flask web app for analyzing student feedback using NLP</li>
+            <li>Sentiment Analysis & Text Classification (Naïve Bayes, Random Forest, SVM)</li>
+            <li>TF-IDF vectorization, hyperparameter tuning, data visualizations</li>
+          </ul>
+        </div>
+        <div class="project-card" ondblclick="window.open('https://github.com/Honeyrawatt/intrusion-detection-system', '_blank')">
+          <h3>Intrusion Detection System (Feb–June 2024)</h3>
+          <ul>
+            <li>ML-based IDS for network anomaly detection</li>
+            <li>K-Means Clustering, Random Forest on NSL-KDD & CICIDS 2017 datasets</li>
+            <li>95%+ accuracy, real-time alert system</li>
+          </ul>
+        </div>
+        <div class="project-card" ondblclick="window.open('https://github.com/Honeyrawatt/open-source-virtual-memory-manager', '_blank')">
+          <h3>Open Source Virtual Memory Manager in MINIX 3 (Feb–May 2025)</h3>
+          <ul>
+            <li>Implemented FIFO, LRU, LFU, Second-Chance page replacement</li>
+            <li>Kernel-level debugging, Unix OS internals</li>
+          </ul>
+        </div>
+        <div class="project-card" ondblclick="window.open('https://github.com/Honeyrawatt/web-based-mini-c-compiler', '_blank')">
+          <h3>Web-based Mini C Compiler</h3>
+          <ul>
+            <li>Technologies: Lex, Bison, C, Python (Flask), HTML, CSS, JavaScript</li>
+            <li>Built a web-based Mini C Compiler using Lex & Bison for parsing and IR generation, with a Flask/C backend and a modern web frontend.</li>
+            <li>Enabled code editing, real-time output, and modular compiler phases—bridging low-level tools with web tech.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Shivang Rawat. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 
