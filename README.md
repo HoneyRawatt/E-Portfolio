@@ -63,7 +63,6 @@ Enthusiastic about Linux, Virtual Memory, Cyber Security, and Machine Learning.
 ## 📬 Contact
 
 - 📧 Email: [rawathoney639@gmail.com]
-- 🔗 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
 - 🐙 GitHub: [github.com/HoneyRawatt](https://github.com/HoneyRawatt)
 
 ---
