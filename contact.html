@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | Shivang Rawat</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Shivang Rawat</div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="contact" class="visible">
+      <h2>Contact Me</h2>
+      <p>I'd love to hear from you! Fill out the form below and I'll get back to you soon.</p>
+      <form class="contact-form" id="contactForm" method="POST" action="contact.php" autocomplete="off">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your Name" />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com" />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="Type your message..."></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+      <div id="form-status" style="margin-top:1rem;"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Shivang Rawat. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 

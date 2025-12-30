@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Shivang Rawat</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Shivang Rawat</div>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="projects" class="visible">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card" ondblclick="window.open('https://github.com/Honeyrawatt/Acharya_Ai', '_blank')">
+          <h3>AI Fitness Trainer– Acharya (Mar ’25)</h3>
+          <ul>
+            <li>Built an AI-powered fitness platform that generated over 500 personalized workout and diet plans, leveraging Gemini AI for real-time recommendations and achieving high goal alignment.</li>
+            <li>Developed a voice-enabled coaching system using Vapi and 11Labs, supporting 200+ hands-free personalized sessions.</li>
+            <li>Designed a scalable Next.js + React architecture with Convex for state and realtime, supporting 1,000+ concurrent users and 99.9% uptime.</li>
+            <li>Delivered real-time program generation and progress tracking, increasing daily active user engagement and reducing churn.</li>
+          </ul>
+          <a class="repo-link" href="https://github.com/Honeyrawatt/Acharya_Ai" target="_blank" rel="noopener noreferrer" title="View on GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+
+        <div class="project-card" ondblclick="window.open('https://github.com/Honeyrawatt/Real-Time-Weapon-Face-Detection', '_blank')">
+          <h3>Real-Time Weapon Detection System with Face Recognition (Sep ’25)</h3>
+          <ul>
+            <li>Developed a real-time surveillance system that detected weapons and unknown individuals with high accuracy to enhance security monitoring.</li>
+            <li>Implemented a computer vision pipeline with YOLO-based detection and Keras-FaceNet for facial recognition, processing 30+ FPS for live feeds.</li>
+            <li>Automated threat responses (alarms and email notifications within 2 seconds) and built a Flask dashboard supporting 100+ concurrent streams.</li>
+          </ul>
+          <a class="repo-link" href="https://github.com/Honeyrawatt/Real-Time-Weapon-Face-Detection" target="_blank" rel="noopener noreferrer" title="View on GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="project-card" ondblclick="window.open('https://github.com/Honeyrawatt/student-feedback-review-system', '_blank')">
+          <h3>Student Feedback Review System (Sep–Dec 2024)</h3>
+          <ul>
+            <li>Flask web app for analyzing student feedback using NLP</li>
+            <li>Sentiment Analysis & Text Classification (Naïve Bayes, Random Forest, SVM)</li>
+            <li>TF-IDF vectorization, hyperparameter tuning, data visualizations</li>
+          </ul>
+          <a class="repo-link" href="https://github.com/Honeyrawatt/student-feedback-review-system" target="_blank" rel="noopener noreferrer" title="View on GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="project-card" ondblclick="window.open('https://github.com/Honeyrawatt/redis-clone', '_blank')">
+          <h3>Redis Clone (C++)</h3>
+          <ul>
+            <li>Technologies: C++, TCP Sockets, STL, Multithreading, Networking.</li>
+            <li>Built a Redis-like in-memory data store from scratch in C++, supporting 12+ Redis commands and achieving O(1) average-time complexity for key–value operations using unordered_map-based storage; validated across thousands of read/write operations.</li>
+            <li>Implemented core Redis commands including PING, ECHO, SET/GET with PX expiry, and List operations (RPUSH, LPUSH, LRANGE, LLEN, LPOP), handling both positive and negative indexing and supporting range queries over lists of 10⁴+ elements.</li>
+            <li>Designed and implemented blocking commands (BLPOP) with FIFO-based fairness, correctly serving multiple simultaneously blocked clients (5–10+), supporting indefinite blocking and timeout-based unblocking with second-level precision.</li>
+            <li>Managed concurrent TCP client connections with multithreading, ensuring thread-safe command execution, efficient parsing of hundreds of sequential commands per session, and structured response serialization inspired by Redis protocol semantics.</li>
+            <li>Optimized for low latency and correctness: millisecond-level key expiration with zero stale reads after expiry; deepened expertise in network programming, data structures, synchronization primitives, and event-driven server design.</li>
+          </ul>
+          <a class="repo-link" href="https://github.com/Honeyrawatt/redis-clone" target="_blank" rel="noopener noreferrer" title="View on GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="project-card" ondblclick="window.open('https://github.com/Honeyrawatt/open-source-virtual-memory-manager', '_blank')">
+          <h3>Open Source Virtual Memory Manager in MINIX 3 (Feb–May 2025)</h3>
+          <ul>
+            <li>Implemented FIFO, LRU, LFU, Second-Chance page replacement</li>
+            <li>Kernel-level debugging, Unix OS internals</li>
+          </ul>
+          <a class="repo-link" href="https://github.com/Honeyrawatt/open-source-virtual-memory-manager" target="_blank" rel="noopener noreferrer" title="View on GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="project-card" ondblclick="window.open('https://github.com/Honeyrawatt/Web_MiniCompiler', '_blank')">
+          <h3>Web-based Mini C Compiler</h3>
+          <ul>
+            <li>Technologies: Lex, Bison, C, Python (Flask), HTML, CSS, JavaScript</li>
+            <li>Built a web-based Mini C Compiler using Lex & Bison for parsing and IR generation, with a Flask/C backend and a modern web frontend.</li>
+            <li>Enabled code editing, real-time output, and modular compiler phases—bridging low-level tools with web tech.</li>
+          </ul>
+          <a class="repo-link" href="https://github.com/Honeyrawatt/Web_MiniCompiler" target="_blank" rel="noopener noreferrer" title="View on GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Shivang Rawat. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html> 
