@@ -245,6 +245,9 @@ nav a:hover, nav a:focus {
   transform: translate(-50%, -50%);
   width: 520px;
   height: 520px;
+  /* increased to keep glow proportional to larger avatar */
+  width: 580px;
+  height: 580px;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(255, 76, 96, 0.2) 0%, rgba(255, 76, 96, 0) 70%);
   animation: glowPulse 3s infinite;
@@ -259,6 +262,9 @@ nav a:hover, nav a:focus {
   transform: translate(-50%, -50%);
   width: 600px;
   height: 600px;
+  /* increased to keep glow proportional to larger avatar */
+  width: 660px;
+  height: 660px;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(255, 76, 96, 0.1) 0%, rgba(255, 76, 96, 0) 80%);
   animation: glowPulse 4s infinite;
@@ -273,9 +279,9 @@ nav a:hover, nav a:focus {
 
 .hero-img img {
   width: 100%;
-  max-width: 420px;
+  max-width: 480px;
   /* make image a square and crop to the face to hide any rectangular background */
-  height: 420px;
+  height: 480px;
   object-fit: cover;
   border-radius: 50%; /* circular avatar to remove visible rectangle */
   background: transparent;
@@ -602,8 +608,8 @@ section.visible, .skills > div.visible, .project-card.visible, .contact-form.vis
     gap: 1.2rem;
   }
   .hero-img img {
-    max-width: 220px;
-    height: 220px; /* keep square/circular ratio */
+    max-width: 260px;
+    height: 260px; /* keep square/circular ratio */
   }
 }
 
@@ -625,8 +631,8 @@ section.visible, .skills > div.visible, .project-card.visible, .contact-form.vis
     font-size: 1rem;
   }
   .hero-img img {
-    max-width: 120px;
-    height: 120px; /* keep square/circular ratio on small screens */
+    max-width: 140px;
+    height: 140px; /* keep square/circular ratio on small screens */
   }
   .btn {
     font-size: 1rem;
